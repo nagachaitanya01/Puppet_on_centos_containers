@@ -76,7 +76,7 @@ puppet agent --test --server=puppetmaster.qshore.com --waitforcert=50
 
 In Master :
 
-Puppet cert sign puppetagent.qshore.com
+puppet cert sign puppetagent.qshore.com
 
 
 Add in /etc/puppet/manifests/site.pp
