@@ -12,8 +12,8 @@ service docker enable
 
 docker pull devopsil/puppet 
 
-docker run -it --name puppetmaster --host puppetmaster.qshore.com devopsil/puppet bash
-docker run -it --name puppetagent --host puppetagent.qshore.com devopsil/puppet bash
+docker run -it --name puppetmaster -h puppetmaster.qshore.com devopsil/puppet bash
+docker run -it --name puppetagent -h puppetagent.qshore.com devopsil/puppet bash
 
 In master :
 
